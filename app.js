@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/usuarios";
+const API_URL = "https://api-filmes-back.onrender.com/";
 
 const formulario = document.querySelector("#form-usuario");
 const campoId = document.querySelector("#usuario-id");
