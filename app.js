@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/filmes";
+const API_URL = "https://api-filmes-back.onrender.com";
 
 // Selecionando os novos IDs do HTML
 const formulario = document.querySelector("#form-filme");
