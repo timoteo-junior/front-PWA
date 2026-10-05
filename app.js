@@ -1,7 +1,6 @@
 // const API_URL = "http://localhost:3000/filmes";
 const API_URL = "https://api-filmes-back.onrender.com/filmes";
 
-// Selecionando os novos IDs do HTML
 const formulario = document.querySelector("#form-filme");
 const campoId = document.querySelector("#filme-id");
 const campoTitulo = document.querySelector("#titulo");
@@ -39,7 +38,7 @@ function mostrarMensagem(texto, erro = false) {
 
 function criarCartaoFilme(filme) {
   const cartao = document.createElement("article");
-  cartao.className = "usuario"; // Mantido como 'usuario' para preservar a formatação do seu CSS original
+  cartao.className = "usuario";
 
   const titulo = document.createElement("h3");
   titulo.textContent = filme.titulo;
